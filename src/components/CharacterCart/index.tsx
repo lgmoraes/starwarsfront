@@ -23,7 +23,7 @@ const Container = styled.div`
   }
   & p.message {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
   }
   & p {
     text-align: center;
