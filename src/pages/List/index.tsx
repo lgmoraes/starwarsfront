@@ -1,9 +1,11 @@
 import { useEffect } from 'react'
 import styled from 'styled-components'
 
+import CharacterList from '../../components/CharacterList'
+
 
 const Main = styled.main`
-  margin-top: var(--header-height);
+  
 `
 
 function List() {
@@ -13,7 +15,8 @@ function List() {
 
   return (
     <Main>
-      <h1>List</h1>
+      <h1>Liste de characteres</h1>
+      <CharacterList />
     </Main>
   )
 }
